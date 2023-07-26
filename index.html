@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Vibe Stream</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--Stylesheets-->
+    <link rel="stylesheet" href="styles.css">
+    <!--Google Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!--Favicon-->
+    <link rel="icon" href="Icons/favicon_io/android-chrome-512x512.png">
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+</head>
+
+<body>
+    <section id="Vibe Stream">
+        <div class="container">
+            <!--Navbar-->
+            <nav class="navbar navbar-expand-lg bg-netflix-black border-bottom border-bottom-dark">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="index.html" style="color: #e50914;">Vibe Stream</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon" style="background-color: #e50914;"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <div class="theme-switch">
+                                    <input type="checkbox" class="checkbox" id="checkbox" />
+                                    <label for="checkbox" class="label">
+                                        <i class="fa-regular fa-sun sun" name="partly-sunny-outline"></i>
+                                        <i name="moon-outline" class="fa-solid fa-moon moon"></i>
+                                        <div class="switcher"></div>
+                                    </label>
+                                </div>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="#about">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="#features">Features</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="#pricing">Pricing</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="#footer">Contact</a>
+                            </li>
+                            <li class="nav-item">
+                                <div class="form-and-nav-btn nav-link">
+                                    <a class="nav-btn" href="#cta">Buy Now!</a>
+                                </div>
+                            </li>
+                        </ul>
+                        <form class="d-flex" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit"><i
+                                    class="fa-solid fa-magnifying-glass"></i></button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </section>
+    <section id="hero">
+        <div class="container">
+            <div class="welcome-and-video">
+                <div class="welcome">
+                    <h1>
+                        <span>Your Gateway to Endless Streaming</span>
+                    </h1>
+                    <h2>
+                        <span>Streaming Joy, On-Demand</span>
+                    </h2>
+                    <p>Step into a world of unlimited entertainment like never before!</p>
+                    <button href="#" class="btn netFlex"><img class="subscribe" src="Icons/free-trial.png" height="33px"
+                            width="33px">Enjoy 30 Days Free Trial</button>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <button href="#" class="btn netFlex"><img class="subscribe" src="Icons/subscribe.png" height="33"
+                            width="33">Subscribe</button>
+                </div>
+                <div class="vid">
+                    <video width="560" height="315" title="Vibe Stream" autoplay controls muted>
+                        <source src="Welcome.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <div class="stand-1"></div>
+                    <div class="stand-2"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="about" class="about">
+        <div class="container">
+
+            <div class="about-content">
+                <h1>About Us</h1>
+                <h3>Welcome to Vibe Stream, your ultimate destination for top-notch entertainment!</h3>
+                <p>Our mission is to bring you a vast library of movies, TV shows, documentaries, and original content,
+                    all at
+                    your fingertips. With our user-friendly platform, you can explore a world of captivating stories,
+                    thrilling
+                    adventures, and thought-provoking narratives from the comfort of your own home.</p>
+                <h1>Why Choose Us?</h1>
+                <p>Choose us for an exceptional streaming experience! We boast an extensive content library across
+                    genres,
+                    top-notch streaming quality, personalized recommendations, and seamless access on all your devices.
+                    Try us
+                    risk-free with our free trial and redefine how you enjoy entertainment with Vibe Stream.</p>
+                <div class="welcome-bg">
+                    <img class="bg" src="Icons/welcome.jpg">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="features" id="features">
+        <h1>Features :</h1>
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="Icons/on-demand.jpg" class="d-block w-100" alt="...">
+                    <h6>On-Demand Movies And Videos</h6>
+                </div>
+                <div class="carousel-item">
+                    <img src="Icons/personalized-recommendations.jpg" class="d-block w-100" alt="...">
+                    <h6>Personalized Recommendations</h6>
+                </div>
+                <div class="carousel-item">
+                    <img src="Icons/Multiple devices.jpg" class="d-block w-100" alt="...">
+                    <h6>Multiple Devices</h6>
+                </div>
+                <div class="carousel-item">
+                    <img src="Icons/Multiple-profiles.jpg" class="d-block w-100" alt="...">
+                    <h6>Multiple User Profiles</h6>
+                </div>
+                <div class="carousel-item">
+                    <img src="Icons/offline downloads.png" class="d-block w-100" alt="...">
+                    <h6>Offline Downloads For Premium Users</h6>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+    <section id="pricing" class="pricing">
+        <div class="container">
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="Icons/android.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h1 class="card-title">Basic</h1>
+                            <h3 class="card-text">Unlimited ad-free movies, TV shows, and mobile games</h3>
+                            <h5 class="card-text">Watch on 1 phone or tablet at a time</h5>
+                            <p class="card-text">Download on 1 phone or tablet at a time</p>
+                            <h2 class="card-text">₹199 INR/month</h2>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="Icons/tablet.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h1 class="card-title">Standard</h1>
+                            <h3 class="card-text">Unlimited ad-free movies, TV shows, and mobile games</h3>
+                            <h5 class="card-text">Watch on 2 supported devices at a time</h5>
+                            <p class="card-text">Watch in Full HD</p>
+                            <p class="card-text">Download on 2 supported devices at a time</p>
+                            <h2 class="card-text">₹499 INR/month</h2>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="Icons/tv.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h1 class="card-title">Premium</h1>
+                            <h3 class="card-text">Unlimited ad-free movies, TV shows, and mobile games</h3>
+                            <h5 class="card-text">Watch on 1 phone or tablet at a time</h5>
+                            <p class="card-text">Watch on 4 supported devices at a time</p>
+                            <p class="card-text">Watch in Ultra HD</p>
+                            <p class="card-text">Download on 6 supported devices at a time</p>
+                            <p class="card-text">Vibe Stream spatial audio</p>
+                            <h2 class="card-text">₹649 INR/month</h2>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="newsletter" class="newsletter">
+        <div class="newsletter-container">
+            <h2>Sign Up Now!</h2>
+            <p>Tune In For Latest updates and <span>exclusive offers.</span></p>
+            <div class="input-group mb-3">
+                <input type="email" class="form-control" placeholder="Enter your email" aria-label="Email"
+                    aria-describedby="subscribe-btn">
+                <button class="btn btn-outline-secondary netFlex" type="button" id="subscribe-btn">Sign Up</button>
+            </div>
+            <div class="newsletter container">
+                <img src="Icons/banner.jpg">
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+
+        <i class="fa-solid fa-arrow-up scroll-up" id="scroll-up"></i>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2">
+                    <br>
+                    <h5>Information</h5>
+                    <ul>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#footer">Contact Us</a></li>
+                        <li><a href="#privacy">Privacy Policy</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                    </ul>
+                </div>
+                <div class=" col-md-2 follow-us">
+                    <h4>Follow Us</h4>
+                    <div class="icon">
+                        <i class="social-icon fa-brands fa-twitter"></i>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <i class="social-icon fa-brands fa-facebook-f"></i>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <i class="social-icon fa-brands fa-instagram"></i>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <i class="social-icon fa-solid fa-envelope"></i>
+                    </div>
+                    <br>
+                    <div class=" buy-now">
+                        <h4>Buy Now!</h4>
+                        <div class="icon">
+                            <i class="fa-brands fa-google-pay"></i>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <i class="fa-brands fa-cc-visa"></i>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <i class="fa-brands fa-paypal"></i>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <i class="fa-brands fa-amazon-pay"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <h5>My Account</h5>
+                    <ul>
+                        <li><a href="index.html">My Account</a></li>
+                        <li><a href="#history">Watch History</a></li>
+                        <li><a href="#wishlist">Wishlist</a></li>
+                        <li><a href="#news">Newsletter</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-2">
+                    <h5>Customer Service</h5>
+                    <ul>
+                        <li><a href="#faq">FAQs</a></li>
+                        <li><a href="#reviews">Reviews</a></li>
+                        <li><a href="#footer">Customer Care</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-2 install">
+                    <h5>Download Now!</h5>
+                    <br>
+                    <div class="row">
+                        <button type="button" class="btn btn-dark netFlex"><i
+                                class="fa-brands fa-apple netFlex"></i>Download</button>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <button type="button" class="btn btn-light netFlex"><i
+                                class="fa-brands fa-google-play netFlex"></i>Download</button>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <h5>Contact Us</h5>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i>C-84 Vibe-Stream Inc., Greater Noida, India</li>
+                        <li><i class="fas fa-envelope"></i> info@vibestream.com</li>
+                        <li><i class="fas fa-phone-alt"></i> +917838379576</li>
+                    </ul>
+                </div>
+                <div class="copyrights">
+                    <p>© Copyright Vibe Stream</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.7.0.js"
+        integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js" async defer></script>
+</body>
+
+</html>
